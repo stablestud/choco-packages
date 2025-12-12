@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Test your packages in a test environment: https://github.com/chocolatey/chocolatey-test-environment -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>ringcentral</id>
+    <version>25.4.20</version>
+    <packageSourceUrl>https://github.com/stablestud/choco-packages/ringcentral</packageSourceUrl>-->
+    <title>RingCentral App (RingEx)</title>
+    <authors>RingCentral Inc.</authors>
+    <owners>stablestud</owners>
+    <projectUrl>https://github.com/stablestud/choco-packages</projectUrl>
+    <iconUrl>https://www.ringcentral.com/content/dam/rc-www/en_us/images/favicon/ringcentral_2.0_icon_favicon.ico</iconUrl>
+    <copyright>All rights reserved (c) RingCentral Inc.</copyright>
+    <projectSourceUrl>https://support.ringcentral.com/download.html</projectSourceUrl>
+    <tags>ringcentral ringex</tags>
+    <summary>RingCentral RingEX is an AI-powered unified communications app that combines calling, messaging, and video meetings into one platform to streamline business communication</summary>
+    <description>RingCentral RingEX is a modern, cloud-based unified communications and collaboration platform for businesses that combines all essential communication tools into a single app. It brings together voice calls, video meetings, team messaging, SMS/text, and even fax with deep integration into business tools like Salesforce, Google Workspace, and Microsoft Teams to streamline how teams and organizations communicate and collaborate</description>
+    <releaseNotes>https://support.ringcentral.com/release-notes/ringex/desktop.html</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
