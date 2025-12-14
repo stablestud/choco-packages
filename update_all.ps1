@@ -11,15 +11,15 @@ $Options = [ordered]@{
 
     # Then save this report as a gist using your api key and gist id
     Gist = @{
-        ApiKey = $Env:github_api_key
-        Id     = $Env:github_gist_id
+        ApiKey = $Env:GIST_API_KEY
+        Id     = $Env:GIST_ID
         Path   = "$PSScriptRoot\report.txt"
     }
 
     # Persist pushed packages to your repository
     Git = @{
-        User = $Env:github_user
-        Password = $Env:github_api_key
+        User = $Env:GITHUB_ACTOR
+        Password = $Env:GITHUB_TOKEN
     }
 
     <#
