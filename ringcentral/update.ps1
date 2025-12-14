@@ -75,7 +75,7 @@ function Get-MsiProductVersion {
         }
 
         $version = [string]($record.StringData(1))
-	$version = ($version -replace "`0", "").Trim()
+        $version = ($version -replace "`0", "").Trim()
 
         return $version
     }

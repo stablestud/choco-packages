@@ -1,7 +1,28 @@
+<#
+.SYNOPSIS
+    Update all Chocolatey packages in this repository using chocolatey-au.
+.DESCRIPTION
+    This script updates packages and optionally pushes them to Chocolatey
+    and the changes to the remote Git repo
+#>
+
+param(
+    [switch]$ChocoPush, # if provided, push packages to Chocolatey after building
+    [switch]$GitPush    # if provided, push changes to Git remote and report to Gist
+)
+
+if ($ChocoPush) {
+    Write-Host "Pushing to Chocolatey enabled"
+}
+if ($GitPush) {
+    Write-Host "Pushing changes to Git remote enabled"
+}
+$global:au_NoPlugins = -not $GitPush.IsPresent
+
 $Options = [ordered]@{
-    Timeout = 100
-    Threads = 15
-    Push    = $true
+    Timeout   = 100
+    Threads   = 15
+    Push      = $ChocoPush.IsPresent
 
     # Save text report in the local file report.txt
     Report = @{

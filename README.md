@@ -14,5 +14,18 @@ To run locally you will need:
 
 ## Update Packages Manually:
 
-To run manually cd into each package subfolder and run:
+### Single package
+
+To update a single package manually, `cd` into package subfolder and run:
 `.\update.ps1`
+
+Build NuGet package:
+`choco pack`
+
+### All packages
+
+To update all packages run:
+`.\update_all.ps1`
+
+To also push packages to Chocolatey:
+`$env:API_KEY="CHOCOLATEY_API_KEY"; .\update_all.ps1 -ChocoPush`
