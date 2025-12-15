@@ -9,7 +9,7 @@ This repository contains [chocolatey automatic packages](https://chocolatey.org/
 
 To run locally you will need:
 
-- Powershell 5+.
+- Powershell 5.x
 - [Chocolatey Automatic Package Updater Module](https://github.com/majkinetor/au): `Install-Module chocolatey-au` or `choco install chocolatey-au`
 
 ## Update Packages Manually:
@@ -17,10 +17,16 @@ To run locally you will need:
 ### Single package
 
 To update a single package manually, `cd` into package subfolder and run:
-`.\update.ps1`
+`.\update.ps1` or edit the `*.nuspec` and `tools\chocolatey*install.ps1`
 
 Build NuGet package:
 `choco pack`
+
+Install package locally for testing (optional):
+`choco install PACKAGE --source .
+
+Push package to Chocolatey:
+`choco push PACKAGE.VERSION.nuspkg --source https://push.chocolatey.org --key CHOCOLATEY_API_KEY`
 
 ### All packages
 
