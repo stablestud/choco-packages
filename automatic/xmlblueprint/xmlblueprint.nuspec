@@ -8,7 +8,7 @@
     <authors>Monkfish XML Software</authors>
     <owners>stablestud</owners>
     <projectUrl>https://www.xmlblueprint.com/</projectUrl>
-    <iconUrl>https://cdn.jsdelivr.net/gh/stablestud/au-packages@201dffcabfeedd637223b304571a08226a4ffb68/icons/xmlblueprint.svg</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/stablestud/au-packages@cb84196bd96013650b688090b1e054d71dcd5a37/icons/xmlblueprint.svg</iconUrl>
     <copyright>All rights reserved (c) Monkfish XML Software</copyright>
     <tags>xmlblueprint xml</tags>
     <summary>XMLBlueprint is a versatile XML editor with advanced features for validation, editing, and formatting, suitable for both professionals and home users.</summary>
