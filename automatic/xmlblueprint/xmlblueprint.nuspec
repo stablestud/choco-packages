@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>xmlblueprint</id>
-    <version>22.2025.10.29</version>
+    <version>22.2025.10.30</version>
     <packageSourceUrl>https://github.com/stablestud/au-packages/tree/master/automatic/xmlblueprint</packageSourceUrl>
     <title>XMLBlueprint</title>
     <authors>Monkfish XML Software</authors>
