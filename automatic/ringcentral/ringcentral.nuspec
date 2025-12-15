@@ -3,7 +3,7 @@
   <metadata>
     <id>ringcentral</id>
     <version>25.4.2012</version>
-    <packageUrl>https://github.com/stablestud/au-packages</packageSourceUrl>
+    <packageUrl>https://github.com/stablestud/au-packages</packageUrl>
     <packageSourceUrl>https://github.com/stablestud/au-packages/tree/master/automatic/ringcentral</packageSourceUrl>
     <title>RingCentral App (RingEx)</title>
     <authors>RingCentral Inc.</authors>
