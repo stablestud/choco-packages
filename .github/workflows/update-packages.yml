@@ -14,12 +14,12 @@ jobs:
     - name: Install dependencies
       run: choco install chocolatey-au
     - name: Setup Git commit author
-      shell: pwsh
+      shell: powershell
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
     - name: Update Chocolatey packages
-      shell: pwsh
+      shell: powershell
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         GIST_API_KEY: ${{ secrets.GIST_API_KEY }}
