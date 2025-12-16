@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
-    <id>xmlblueprint</id>
-    <version>22.2025.10.30</version>
-    <packageSourceUrl>https://github.com/stablestud/au-packages/tree/master/automatic/xmlblueprint</packageSourceUrl>
-    <title>XMLBlueprint</title>
+    <id>xmlblueprint-archive</id>
+    <version>18.2021.12.15</version>
+    <packageSourceUrl>https://github.com/stablestud/au-packages/tree/master/automatic/xmlblueprint-archive</packageSourceUrl>
+    <title>XMLBlueprint (Archive)</title>
     <authors>Monkfish XML Software</authors>
     <owners>stablestud</owners>
     <projectUrl>https://www.xmlblueprint.com/</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/stablestud/au-packages@cb84196bd96013650b688090b1e054d71dcd5a37/icons/xmlblueprint.svg</iconUrl>
     <copyright>All rights reserved (c) Monkfish XML Software</copyright>
-    <tags>xmlblueprint xml trial requires-license</tags>
+    <tags>xmlblueprint xml</tags>
     <summary>XMLBlueprint is a versatile XML editor with advanced features for validation, editing, and formatting, suitable for both professionals and home users.</summary>
     <description>
 <![CDATA[
 # XML Blueprint
-
 XMLBlueprint is a comprehensive XML editor designed for both professionals and home users.
 
 It offers full support for XML-related technologies like XSD, DTD, Relax NG, Schematron, XSLT, and XPath, enabling efficient editing, validation, and schema management.
@@ -28,8 +27,14 @@ With robust performance, it’s the ideal tool for handling complex XML document
 This is a commerical software, a license key is required for continued usage.
 Upon installation a 15-day trial is available.
 
-Note: this package tracks the latest XMLBlueprint requiring license for the latest version.    
-If you have a license for an old/archived version see [xmlblueprint-archive](https://community.chocolatey.org/packages/xmlblueprint-archive)
+Note: this package holds XMLBlueprint versions which are officially archived.    
+
+Use this package if you have a license for one of these archived versions only, otherwise use the latest version available (see below).    
+
+If you have a license for a recent/latest version see package [xmlblueprint](https://community.chocolatey.org/packages/xmlblueprint)
+
+I strongly recommend to pin the install version as Chocolatey would update it once a newer archive version is being pushed. This would break your license, therefore pin the currently installed version with:    
+`choco pin add -n=xmlblueprint-archive`
 
 ## Parameters
 - `/NOICONS` instructs setup to initially check the `Don't create a Start Menu folder` check box

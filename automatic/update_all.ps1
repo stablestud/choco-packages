@@ -39,7 +39,7 @@ $Options = [ordered]@{
 
     # Persist pushed packages to your repository
     Git = @{
-        User = $Env:GITHUB_ACTOR
+        User = ''
         Password = $Env:GITHUB_TOKEN
     }
 
