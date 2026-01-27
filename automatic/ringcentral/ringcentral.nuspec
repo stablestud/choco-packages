@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>ringcentral</id>
-    <version>25.4.2012</version>
+    <version>26.1.1012</version>
     <packageSourceUrl>https://github.com/stablestud/au-packages/tree/master/automatic/ringcentral</packageSourceUrl>
     <title>RingCentral App (RingEx)</title>
     <authors>RingCentral Inc.</authors>
